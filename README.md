@@ -1,31 +1,21 @@
-# Uzbek Teacher Portfolio (GitHub Pages)
+# Farangiz Mahmudova — Teacher Portfolio
 
-This is a simple two-page teacher portfolio/website.
+Static website (2 pages) for GitHub Pages.
 
-## Pages
-- `index.html` — Home / About / Contact
+## Files
+- `index.html` — Home
 - `philosophy.html` — Teaching Philosophy
 - `styles.css` — Styling
+- `assets/img/hero.svg` — hero background (local)
+- `assets/img/classroom.svg` — illustration (local)
 
-## Quick edits
-Open `index.html` and `philosophy.html` and replace:
-- `TODO_NAME` with your name
-- `TODO_EMAIL` with your email
-- `TODO_LOCATION` with your location (optional)
-- Replace the placeholder links under **Links**
+## Publish on GitHub Pages
+1. Upload all files/folders to the repository root (keep folder structure).
+2. Settings → Pages
+   - Source: Deploy from a branch
+   - Branch: main
+   - Folder: /(root)
+3. Open: `https://<username>.github.io/<repo>/`
 
-## Publish with GitHub Pages
-1. Create a GitHub repository (Public is fine).
-2. Upload these files to the repository root:
-   - `index.html`
-   - `philosophy.html`
-   - `styles.css`
-3. Go to **Settings → Pages**
-   - Source: **Deploy from a branch**
-   - Branch: **main**
-   - Folder: **/(root)**
-4. Save. Your site will appear at:
-   - `https://<username>.github.io/<repo>/` (for a normal repo)
-   - or `https://<username>.github.io/` if the repo is named `<username>.github.io`
-
-Tip: If the site looks unstyled, check that `styles.css` is in the same folder as `index.html`.
+## Add your real photo (optional)
+Upload a square image as `assets/img/profile.jpg` and tell me — I’ll update the site to use it.
